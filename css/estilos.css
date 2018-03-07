@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url('../img/bg.png');
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	min-height: 15vh;
+	align-items: center;
+}
+
+header > h1 {
+	text-shadow: 1px 1px 2px #333;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav > ul {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #1565c0;
+	box-shadow: 0.5px 0.5px 7.5px #333;
+}
+
+nav > ul > li > a {
+	cursor: pointer;
+	color: #eee;
+	text-decoration: none;
+	padding: 1rem;
+	display: block;
+}
+
+nav > ul > li:hover {
+	background-color: #0d47a1;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex: 1 0 auto;
+	background-color: #e3e3e3;
+	box-shadow: 0.5px 0.5px 7.5px #333;
+}
+
+main > div {
+	padding: 1rem;
+	width: 70%;
+}
+
+main > div > section {
+	text-align: justify;
+	margin-bottom: 1rem;
+	background-color: #e9e9e9;
+	padding: 1rem;
+	box-shadow: 0.5px 0.5px 7.5px #999;
+}
+
+main > div > section > h2 {
+	padding-bottom: 1rem;
+	border-bottom: 0.1rem solid #333;	
+}
+
+main > aside {
+	padding: 1rem;
+	width: 30%;
+}
+
+main > aside > div {
+	padding: 1rem;
+	background-color: #e9e9e9;
+	box-shadow: 0.5px 0.5px 7.5px #999;
+}
+
+main > aside > div > h3 {
+	margin: 0.5rem 0;
+	margin-left: 0.5rem;
+}
+
+main > aside > div > nav {
+	justify-content: flex-start;
+}
+
+main > aside > div > nav > ul {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-shadow: none;
+}
+
+main > aside > div > nav > ul > li > a:hover {
+	border-bottom: 0.2rem solid #444;
+	background-color: #e3e3e3;
+}
+
+main > aside > div > nav > ul > li > a {
+	border-bottom: 0.1rem solid #333;
+	background-color: #e9e9e9;
+	cursor: pointer;
+	display: block;
+	color: #333;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+	color: #eee;
+}
+
+footer > div {
+	width: 40%;
+}
+
+footer > div:last-child {
+	text-align: end;
+}
+
+footer > div > p {
+	padding: 1rem;
+}
